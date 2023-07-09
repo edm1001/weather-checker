@@ -6,16 +6,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <!-- sunny <i class="fa-sharp fa-solid fa-sun"></i> -->
-  <!-- cloudy <i class="fa-solid fa-clouds-sun"></i> -->
-  <!-- rain <i class="fa-solid fa-cloud-rain"></i> -->
-  <!-- windy <i class="fa-solid fa-wind"></i> -->
-  <!-- thunder  -->
   <body>
     <header class="header">
       <div class="header-left">
         <div class="weather-icon">
-          <i class="fa-sharp fa-solid fa-sun"></i>
+          <img src="/icons/cloudy.svg" >
         </div>
         <div class="header-current-temp">
           <span data-current-temp>9</span>&deg;
@@ -52,37 +47,37 @@
 
     <section class="day-section" data-day-section>
       <div class="day-card">
-        <img src="" class="weather-icon"> <!--weather img-->
+        <img src="/icons/Sunny.svg" class="weather-icon"> <!--weather img-->
         <div class="day-card-day">Monday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
-        <img src="" class="weather-icon"> <!--weather img-->
+        <img src="/icons/sun-cloud.svg" class="weather-icon"> <!--weather img-->
         <div class="day-card-day">Tuesday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
-        <img src="" class="weather-icon"> <!--weather img-->
+        <img src="/icons/sun-cloud.svg" class="weather-icon"> <!--weather img-->
         <div class="day-card-day">Wednesday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
-        <img src="" class="weather-icon"> <!--weather img-->
+        <img src="/icons/sun-cloud.svg" class="weather-icon"> <!--weather img-->
         <div class="day-card-day">Thursday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
-        <img src="" class="weather-icon"> <!--weather img-->
+        <img src="/icons/sun-cloud.svg" class="weather-icon"> <!--weather img-->
         <div class="day-card-day">Friday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
-        <img src="" class="weather-icon"> <!--weather img-->
+        <img src="/icons/sun-cloud.svg" class="weather-icon"> <!--weather img-->
         <div class="day-card-day">Saturday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
-        <img src="" class="weather-icon"> <!--weather img-->
+        <img src="/icons/sun-cloud.svg" class="weather-icon"> <!--weather img-->
         <div class="day-card-day">Sunday</div>
         <div>32&deg;</div>
       </div>
@@ -98,7 +93,7 @@
             </div>
           </td>
           <td>
-            <img src=""> <!--img goes here-->
+            <img src="/icons/sun-cloud.svg"> 
           </td>
           <td>
             <div class="info-group">
@@ -137,7 +132,7 @@
             </div>
           </td>
           <td>
-            <img src=""> <!--img goes here-->
+            <img src="/icons/sun-cloud.svg"> 
           </td>
           <td>
             <div class="info-group">
@@ -176,7 +171,7 @@
             </div>
           </td>
           <td>
-            <img src=""> <!--img goes here-->
+            <img src="/icons/sun-cloud.svg"> 
           </td>
           <td>
             <div class="info-group">
@@ -215,7 +210,7 @@
             </div>
           </td>
           <td>
-            <img src=""> <!--img goes here-->
+            <img src="/icons/sun-cloud.svg"> 
           </td>
           <td>
             <div class="info-group">
@@ -254,7 +249,7 @@
             </div>
           </td>
           <td>
-            <img src=""> <!--img goes here-->
+            <img src="/icons/sun-cloud.svg"> 
           </td>
           <td>
             <div class="info-group">
@@ -286,7 +281,7 @@
 
     <template id="day-card-template">
       <div class="day-card">
-        <img data-icon src="" />
+        <img data-icon src="/icons/sun-cloud.svg" />
         <div class="day-card-day" data-date></div>
         <div><span data-temp></span><span>&deg;</span></div>
       </div>
@@ -300,7 +295,7 @@
           </div>
         </td>
         <td>
-          <img data-icon class="weather-icon"> <!--img goes here-->
+          <img data-icon src="/icons/sun-cloud.svg" class="weather-icon"> 
         </td>
         <td>
           <div class="info-group">

@@ -36,13 +36,17 @@ function parseCurrentWeather({current_weather, daily }) {
     } = daily
 
     return {
-        currentTemp,
-        highTemp: maxTemp ,
-        lowTemp: minTemp ,
-        highFeelsLike: maxFeelsLike ,
-        lowFeelsLike: minFeelsLike,
-        windSpeed,
-        precip,
+        currentTemp: Math.round(currentTemp),
+        highTemp: Math.round(maxTemp) ,
+        lowTemp:  Math.round(minTemp) ,
+        highFeelsLike:  Math.round(maxFeelsLike),
+        lowFeelsLike:  Math.round(minFeelsLike),
+        windSpeed:  Math.round(windSpeed),
+        precip:  Math.round(precip * 100) / 100,
         iconCode,
     }
+}
+
+function parseDailyWeather({daily}) {
+    
 }
